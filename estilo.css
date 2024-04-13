@@ -1,0 +1,94 @@
+body{
+    font-family: Tahoma;
+    kkbackground-image: linear-gradient(45deg, #800080, #9900ff);
+    background: url(back.jpeg);
+}
+
+.tela-login{
+    background-color:transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding:80px;
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+    border:2px solid rgb(105, 105, 105);
+    backdrop-filter: blur(8px);
+    
+
+}
+
+input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(99, 2, 255);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: bold;
+    color:white
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    
+
+}
+
+p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+i{
+    padding: 10px;
+}
+
+.tela-login .botao{
+    
+}
+
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
